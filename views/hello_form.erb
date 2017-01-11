@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>KAR Polycom Config builder v.01</title>
+    </head>
+<body>
+
+<h1>Polycom Configuration Builder</h1>
+
+<form action="/hello/" method="POST" autocomplete="off">
+	MAC Address: <input type="text" name="mac"> (Ex. 0ef938a47012)
+	<br/>
+	<br/>
+    User Extension: <input type="text" name="extension"> (Ex. 13177063655)
+    <br/>
+	<br/>
+    Voicemail Extension: <input type="text" name="voicemail"> (Ex. 13177063655)
+	<br/>
+    <br/>
+	Timezone:
+	<select name="timezone">
+	  <option value="-18000">EST</option>
+	  <option value="-21600">CST</option>
+	  <option value="-25200">MST</option>
+	  <option value="-28800">PST</option>
+	</select>
+	<br/>
+	<br/>
+	
+    <input type="submit" value="Submit"> 
+</form>
+
+</body>
+</html>
